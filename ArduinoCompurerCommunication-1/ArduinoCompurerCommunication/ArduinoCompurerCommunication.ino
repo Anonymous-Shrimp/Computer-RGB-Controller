@@ -58,6 +58,7 @@ analogWrite(Red, RedVal);
    BlueVal = BlueVal2;
 while (!stopBreak){
   while(mode == 1){
+    Serial.println(BlueVal);
     if(RedVal < RedVal1){
       RedVal ++;
     } else if(RedVal > RedVal1){ 
@@ -94,6 +95,7 @@ while (!stopBreak){
   }
 
   while(mode == 2){
+    Serial.println(BlueVal);
     if(RedVal < RedVal2){
       RedVal ++;                     
     } else if(RedVal > RedVal2){

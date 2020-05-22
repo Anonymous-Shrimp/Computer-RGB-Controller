@@ -296,7 +296,7 @@ namespace ComputerToArduino
                 {
                     delay = delayTimer.Value.ToString();
                 }
-                Console.WriteLine(RGBCompiler(redLed1, greenLed1, blueLed1)+ RGBCompiler(redLed2, greenLed2, blueLed2) + delay + "\n");
+                Console.WriteLine('#' + RGBCompiler(redLed1, greenLed1, blueLed1)+ RGBCompiler(redLed2, greenLed2, blueLed2) + delay + "\n");
                 port.Write("#" + RGBCompiler(redLed1, greenLed1, blueLed1) + RGBCompiler(redLed2, greenLed2, blueLed2) + delay + "\n");
             }
         }

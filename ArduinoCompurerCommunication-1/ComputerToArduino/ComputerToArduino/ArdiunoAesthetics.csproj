@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{96828F1E-48B3-45B7-9C6A-2512BDEC3921}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ComputerToArduino</RootNamespace>
-    <AssemblyName>ComputerToArduino</AssemblyName>
+    <RootNamespace>ArdiunoAesthetics</RootNamespace>
+    <AssemblyName>ArdiunoAesthetics</AssemblyName>
     <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -89,6 +89,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="ComputerToArduino_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
